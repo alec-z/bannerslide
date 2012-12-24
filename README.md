@@ -5,17 +5,18 @@ bannerslide
 用法:
 html:
 <pre>
-<ul class="slider">
-<li><div>hello world</div></li>
-<li><a> great day</a></li>
-<li><img src="a.jpg"></img></li>
-</ul>
+&lt;ul&nbsp;class=&quot;slider&quot;&gt;
+&lt;li&gt;&lt;div&gt;hello&nbsp;world&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a&gt;&nbsp;great&nbsp;day&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img&nbsp;src=&quot;a.jpg&quot;&nbsp;/&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </pre>
 js:
 <pre>
 <script type="text/javascript">
 $(".slider").bannerslide();
 </script>
-<pre>
+</pre>
+
 选项:
 options = { "slide_type" : "fade", "fadeInTime" : 300 , "fadeOutTime" : 200};
