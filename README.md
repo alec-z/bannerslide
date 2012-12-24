@@ -4,14 +4,18 @@ bannerslide
 不需要再导入css文件。
 用法:
 html:
+<pre>
 <ul class="slider">
 <li><div>hello world</div></li>
 <li><a> great day</a></li>
 <li><img src="a.jpg"></img></li>
 </ul>
+</pre>
 js:
+<pre>
 <script type="text/javascript">
 $(".slider").bannerslide();
 </script>
+<pre>
 选项:
 options = { "slide_type" : "fade", "fadeInTime" : 300 , "fadeOutTime" : 200};
